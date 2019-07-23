@@ -1,0 +1,18 @@
+[submodule "pack/git-plugins/start/cscope-maps"]
+	path = pack/git-plugins/start/cscope-maps
+	url = https://github.com/joe-skb7/cscope-maps.git
+[submodule "pack/git-plugins/start/vim-airline"]
+	path = pack/git-plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/git-plugins/start/file-line"]
+	path = pack/git-plugins/start/file-line
+	url = https://github.com/bogado/file-line.git
+[submodule "pack/git-plugins/start/tagbar"]
+	path = pack/git-plugins/start/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "pack/git-plugins/start/completor"]
+	path = pack/git-plugins/start/completor
+	url = https://github.com/maralla/completor.vim.git
+[submodule "pack/git-plugins/start/completor-dictionary"]
+	path = pack/git-plugins/start/completor-dictionary
+	url = https://github.com/masawada/completor-dictionary.git
