@@ -42,6 +42,9 @@ nnoremap <C-S-Left> :tabprevious<CR>
 nnoremap <C-S-Right> :tabnext<CR>
 nnoremap <C-t> :tabnew<CR>
 
+" vim-one colors
+let g:airline_theme='one'
+
 " TagBar toggle
 nmap <F8> :TagbarToggle<CR>
 

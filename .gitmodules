@@ -16,3 +16,6 @@
 [submodule "pack/git-plugins/start/completor-dictionary"]
 	path = pack/git-plugins/start/completor-dictionary
 	url = https://github.com/masawada/completor-dictionary.git
+[submodule "pack/git-plugins/start/vim-one"]
+	path = pack/git-plugins/start/vim-one
+	url = https://github.com/rakr/vim-one.git
