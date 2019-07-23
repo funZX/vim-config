@@ -19,3 +19,6 @@
 [submodule "pack/git-plugins/start/vim-one"]
 	path = pack/git-plugins/start/vim-one
 	url = https://github.com/rakr/vim-one.git
+[submodule "pack/git-plugins/start/NeoDebug"]
+	path = pack/git-plugins/start/NeoDebug
+	url = https://github.com/cpiger/NeoDebug.git
