@@ -22,3 +22,6 @@
 [submodule "pack/git-plugins/start/NeoDebug"]
 	path = pack/git-plugins/start/NeoDebug
 	url = https://github.com/cpiger/NeoDebug.git
+[submodule "pack/git-plugins/start/vim-vinegar"]
+	path = pack/git-plugins/start/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar.git
