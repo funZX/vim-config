@@ -43,3 +43,6 @@
 [submodule "pack/git-plugins/start/ack.vim"]
 	path = pack/git-plugins/start/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "pack/git-plugins/start/vim-dispatch"]
+	path = pack/git-plugins/start/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git

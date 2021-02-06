@@ -18,6 +18,9 @@ set autoread
 let mapleader = "."
 let g:mapleader = "."
 
+" Ack don't jump to first find
+cnoreabbrev Ack Ack!
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
