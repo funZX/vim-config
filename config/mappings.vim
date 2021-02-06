@@ -84,3 +84,6 @@ let g:neodbg_keymap_stop_debugging     = '<S-F5>'       " stop debugging (kill)
 let g:neodbg_keymap_toggle_console_win = '<F6>'         " toggle console window
 let g:neodbg_keymap_terminate_debugger = '<C-C>'        " terminate debugger
 
+let g:airline#extensions#fugitiveline#enabled = 1
+let g:airline#extensions#tabline#enabled      = 1
+let g:airline#extensions#branch#enabled       = 1
