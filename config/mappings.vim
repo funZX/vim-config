@@ -87,3 +87,10 @@ let g:neodbg_keymap_terminate_debugger = '<C-C>'        " terminate debugger
 let g:airline#extensions#fugitiveline#enabled = 1
 let g:airline#extensions#tabline#enabled      = 1
 let g:airline#extensions#branch#enabled       = 1
+
+
+let g:ctrlp_map = '<C-o>'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ }
