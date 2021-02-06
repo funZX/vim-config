@@ -48,6 +48,9 @@ map <C-n> :NERDTreeToggle<CR>
 " TagBar toggle
 nmap <F8> :TagbarToggle<CR>
 
+" Open terminal
+map <S-F8> :below terminal ++rows=10<CR>
+
 " Python completor
 let g:completor_python_binary = 'python'
 "Ctrl-Space for completions. Heck Yeah!
