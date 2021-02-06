@@ -45,6 +45,10 @@ let loaded_netrwPlugin = 1
 " NerdTree
 map <C-n> :NERDTreeToggle<CR>
 
+" FZF
+map <C-o> :FZF<CR>
+
+
 " TagBar toggle
 nmap <F8> :TagbarToggle<CR>
 
@@ -91,9 +95,3 @@ let g:airline#extensions#fugitiveline#enabled = 1
 let g:airline#extensions#tabline#enabled      = 1
 let g:airline#extensions#branch#enabled       = 1
 
-
-let g:ctrlp_map = '<C-o>'
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-  \ 'file': '\v\.(exe|so|dll)$',
-  \ }

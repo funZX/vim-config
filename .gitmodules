@@ -28,9 +28,6 @@
 [submodule "pack/git-plugins/start/vim-fugitive"]
 	path = pack/git-plugins/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "pack/git-plugins/start/ctrlp.vim"]
-	path = pack/git-plugins/start/ctrlp.vim
-	url = https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "pack/git-plugins/start/vim-devicons"]
 	path = pack/git-plugins/start/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons.git
@@ -40,3 +37,6 @@
 [submodule "pack/git-plugins/start/fzf.vim"]
 	path = pack/git-plugins/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/git-plugins/start/fzf"]
+	path = pack/git-plugins/start/fzf
+	url = https://github.com/junegunn/fzf.git
