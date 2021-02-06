@@ -34,3 +34,6 @@
 [submodule "pack/git-plugins/start/vim-devicons"]
 	path = pack/git-plugins/start/vim-devicons
 	url = https://github.com/ryanoasis/vim-devicons.git
+[submodule "pack/git-plugins/start/vim-go"]
+	path = pack/git-plugins/start/vim-go
+	url = https://github.com/fatih/vim-go.git
