@@ -37,3 +37,6 @@
 [submodule "pack/git-plugins/start/vim-go"]
 	path = pack/git-plugins/start/vim-go
 	url = https://github.com/fatih/vim-go.git
+[submodule "pack/git-plugins/start/fzf.vim"]
+	path = pack/git-plugins/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
