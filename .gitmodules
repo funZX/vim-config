@@ -22,10 +22,7 @@
 [submodule "pack/git-plugins/start/NeoDebug"]
 	path = pack/git-plugins/start/NeoDebug
 	url = https://github.com/cpiger/NeoDebug.git
-[submodule "pack/git-plugins/start/vim-vinegar"]
-	path = pack/git-plugins/start/vim-vinegar
-	url = https://github.com/tpope/vim-vinegar.git
-[submodule "pack/git-plugins/start/nerdtree"]
+[submodule "pack/git-plugins/start/vim-tree"]
 	path = pack/git-plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "pack/git-plugins/start/vim-fugitive"]
