@@ -42,12 +42,18 @@ let g:airline_theme='one'
 " Remove netrw
 let loaded_netrwPlugin = 1
 
+" Ack background search with vim-dispatch
+" let g:ack_default_options = " -s -H --nocolor --nopager --nogroup --column" 
+" let g:ack_use_dispatch = 1
+let g:ack_autoclose    = 1
+let g:ack_autofold_results = 1
+let g:ackpreview = 1
+
 " NerdTree
 map <C-n> :NERDTreeToggle<CR>
 
 " FZF
 map <C-o> :FZF<CR>
-
 
 " TagBar toggle
 nmap <F8> :TagbarToggle<CR>
