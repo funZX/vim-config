@@ -10,12 +10,6 @@
 [submodule "pack/git-plugins/start/tagbar"]
 	path = pack/git-plugins/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-[submodule "pack/git-plugins/start/completor"]
-	path = pack/git-plugins/start/completor
-	url = https://github.com/maralla/completor.vim.git
-[submodule "pack/git-plugins/start/completor-dictionary"]
-	path = pack/git-plugins/start/completor-dictionary
-	url = https://github.com/masawada/completor-dictionary.git
 [submodule "pack/git-plugins/start/vim-one"]
 	path = pack/git-plugins/start/vim-one
 	url = https://github.com/rakr/vim-one.git
@@ -40,9 +34,9 @@
 [submodule "pack/git-plugins/start/fzf"]
 	path = pack/git-plugins/start/fzf
 	url = https://github.com/junegunn/fzf.git
-[submodule "pack/git-plugins/start/ack.vim"]
-	path = pack/git-plugins/start/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
 [submodule "pack/git-plugins/start/vim-dispatch"]
 	path = pack/git-plugins/start/vim-dispatch
 	url = https://github.com/tpope/vim-dispatch.git
+[submodule "pack/git-plugins/start/coc.nvim"]
+	path = pack/git-plugins/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git

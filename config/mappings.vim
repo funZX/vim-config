@@ -43,37 +43,18 @@ let g:airline_theme='one'
 " Remove netrw
 let loaded_netrwPlugin = 1
 
-" Ack background search with vim-dispatch
-" let g:ack_default_options = " -s -H --nocolor --nopager --nogroup --column" 
-" let g:ack_use_dispatch = 1
-let g:ack_autoclose    = 0
-let g:ack_autofold_results = 0
-let g:ackpreview = 0
-
 " NerdTree
 map <C-n> :NERDTreeToggle<CR>
 
 " FZF
 map <C-o> :FZF<CR>
+map <C-f> :CocCommand fzf-preview.ProjectGrep<Space>
 
 " TagBar toggle
 nmap <F8> :TagbarToggle<CR>
 
 " Open terminal
 map <S-F8> :below terminal ++rows=10<CR>
-
-" Python completor
-let g:completor_python_binary = 'python'
-"Ctrl-Space for completions. Heck Yeah!
-inoremap <expr> <C-Space> pumvisible() \|\| &omnifunc == '' ?
-            \ "\<lt>C-n>" :
-            \ "\<lt>C-x>\<lt>C-o><c-r>=pumvisible() ?" .
-            \ "\"\\<lt>c-n>\\<lt>c-p>\\<lt>c-n>\" :" .
-            \ "\" \\<lt>bs>\\<lt>C-n>\"\<CR>"
-imap <C-@> <C-Space>
-
-
-let g:completor_auto_trigger = 0
 
 " NeoDebug
 let g:neodbg_debugger              = 'gdb'           " gdb,pdb,lldb
