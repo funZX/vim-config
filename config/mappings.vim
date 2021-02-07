@@ -30,6 +30,7 @@ imap <C-S-q> <ESC>:q!<cr>
 " Useful mappings for managing buffers"
 nnoremap <S-Left> :bn<CR>
 nnoremap <S-Right> :bp<CR>
+nnoremap <S-q> :bd<CR>
 
 " Useful mappings for managing tabs"
 nnoremap <C-S-Left> :tabprevious<CR>
@@ -45,8 +46,8 @@ let loaded_netrwPlugin = 1
 " Ack background search with vim-dispatch
 " let g:ack_default_options = " -s -H --nocolor --nopager --nogroup --column" 
 " let g:ack_use_dispatch = 1
-let g:ack_autoclose    = 1
-let g:ack_autofold_results = 1
+let g:ack_autoclose    = 0
+let g:ack_autofold_results = 0
 let g:ackpreview = 0
 
 " NerdTree
