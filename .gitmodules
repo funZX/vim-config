@@ -13,9 +13,6 @@
 [submodule "pack/git-plugins/start/vim-one"]
 	path = pack/git-plugins/start/vim-one
 	url = https://github.com/rakr/vim-one.git
-[submodule "pack/git-plugins/start/NeoDebug"]
-	path = pack/git-plugins/start/NeoDebug
-	url = https://github.com/cpiger/NeoDebug.git
 [submodule "pack/git-plugins/start/vim-tree"]
 	path = pack/git-plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -40,3 +37,6 @@
 [submodule "pack/git-plugins/start/coc.nvim"]
 	path = pack/git-plugins/start/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
+[submodule "pack/git-plugins/start/vimspector"]
+	path = pack/git-plugins/start/vimspector
+	url = https://github.com/puremourning/vimspector.git
