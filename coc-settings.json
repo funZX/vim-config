@@ -1,8 +1,9 @@
 {
 	"clangd.enabled": true,
 	"clangd.disableCompletion": false,
-	"clangd.disableDiagnostics": true,
+	"clangd.disableDiagnostics": false,
 	"clangd.disableSnippetCompletion": true,
 	"clangd.semanticHighlighting": true,
 	"clangd.serverCompletionRanking": true
 }
+
