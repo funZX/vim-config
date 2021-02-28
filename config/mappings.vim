@@ -2,7 +2,6 @@
 nmap <leader>w :w!<cr>
 nmap <leader>q :q<cr>
 nmap <leader>Q :q!<cr>
-nmap <leader>u :Unite<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
@@ -49,6 +48,9 @@ map <C-n> :NERDTreeToggle<CR>
 " FZF
 map <C-o> :FZF<CR>
 
+" vim-dispatch Make
+nmap <F7> :Make<CR>
+
 " TagBar toggle
 nmap <F8> :TagbarToggle<CR>
 
@@ -62,6 +64,8 @@ let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
 nmap <Leader>di <Plug>VimspectorBalloonEval
 " for visual mode, the visually selected text
 xmap <Leader>di <Plug>VimspectorBalloonEval
+" reset debug view
+nmap <Leader>dr <Plug>VimspectorReset
 
 let g:airline#extensions#fugitiveline#enabled = 1
 let g:airline#extensions#tabline#enabled      = 1
